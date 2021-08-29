@@ -5,7 +5,7 @@ This repository contains important material (presentations, project description,
 ## General information
 
 * [ESE course page](http://scg.unibe.ch/teaching/ese)
-* Use <a href="https://Google.com">Ilias</a> to ask questions and get answers.
+* Use <a href="https://ilias.unibe.ch/goto_ilias3_unibe_frm_2183220.html">Ilias</a> to ask questions and get answers.
 
 The goal of project in the course "Introduction to Software Engineering (ESE)" is to offer a concrete and practical contact with the phases, techniques, and artefacts of an iterative and incremental software development process.
 
