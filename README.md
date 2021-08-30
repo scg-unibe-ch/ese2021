@@ -19,9 +19,9 @@ During the project, a concrete software is created through teamwork and it needs
 
 The final grade will be composed from 60% exam + 40% project.
 
-[Register for the course through the form](https://forms.gle/WAt5aeeELszQ4hbq6) and register on [Ilias](https://ilias.unibe.ch/goto_ilias3_unibe_frm_2183220.html) **until Sunday night, 19.09.2021**.
+[Register for the course through the form](https://forms.gle/WAt5aeeELszQ4hbq6) and register on [Ilias](https://ilias.unibe.ch/goto_ilias3_unibe_frm_2183220.html) **until Sunday night, 26.09.2021**.
 
-***Please note that as per the latest guidelines from the university, exercise hours can be held in person as long as students are vaccinated, recovered, or have recently been tested and if they do not feel ill. If students do not meet these requirements, the university strongly encourages them to follow the other (online) alternatives provided by the lecturer. As ESE exercise hours mainly consist of meetings with team members and respective assistants, the following guidelines must be kept in mind: masks do not have to be worn in the workplace if everyone present has a certificate and maintains a distance of 1.50 meters. Employees who do not have a valid certificate must wear a mask in the workplace. Meetings can be conducted in person if all participants have a Covid certificate and maintain a distance of 1.50 meters. Discussions, meetings, etc. cannot be attended in person without a valid certificate. Students can discuss their preferences with their respective assistants***
+***Please note that as per the latest guidelines from the university, exercise hours can be held in person. However, considering the fact that every student might have different preference for their presence in ESe, we have decided to do it online. We will discuss the details in the first exercise hour.***
 
 
 # Project 
