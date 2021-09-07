@@ -26,7 +26,11 @@ The final grade will be composed from 60% exam + 40% project.
 
 # Project 
 
-TBD 
+This year, students in small teams will build a small web application using Angular and Express. 
+In this application, users (fans of a specific topic, e.g., Harry Potter fans, Manchester United fans) can create posts. 
+Basically, you will build a fan community platform to post related content, such as memes, photos, and buy fan merchandise in an online store.
+We will divide students into teams of 5-6, and each team can pick up a common interest for which they want to build such a platform. 
+We will provide the necessary requirements and guide students through the entire process of development and project management.   
 
 # Project organization
 
