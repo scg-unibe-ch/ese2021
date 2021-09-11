@@ -1,11 +1,13 @@
-import { Optional, Model, Sequelize, DataTypes } from 'sequelize';
+import {Optional, Model, Sequelize, DataTypes, Association} from 'sequelize';
 import { TodoList } from './todolist.model';
+import {ItemImage} from './itemImage.model';
 
 export interface TodoItemAttributes {
     todoItemId: number;
     name: string;
     done: boolean;
     todoListId: number;
+    itemImage: string;
 }
 
 // tells sequelize that todoItemId is not a required field
@@ -13,10 +15,16 @@ export interface TodoItemCreationAttributes extends Optional<TodoItem, 'todoItem
 
 
 export class TodoItem extends Model<TodoItemAttributes, TodoItemCreationAttributes> implements TodoItemAttributes {
+
+    public static associations: {
+        images: Association<TodoItem, ItemImage>
+    };
+
     todoItemId!: number;
     name!: string;
     done!: boolean;
     todoListId!: number;
+    itemImage!: string;
 
 
     public static initialize(sequelize: Sequelize) { // definition for database
@@ -34,6 +42,10 @@ export class TodoItem extends Model<TodoItemAttributes, TodoItemCreationAttribut
                 type: DataTypes.BOOLEAN,
                 allowNull: false
             },
+            itemImage: {
+                type: DataTypes.BOOLEAN,
+                allowNull: true
+            },
             todoListId: {
                 type: DataTypes.INTEGER,
                 allowNull: false
@@ -49,6 +61,10 @@ export class TodoItem extends Model<TodoItemAttributes, TodoItemCreationAttribut
             as: 'todoList',
             onDelete: 'cascade',
             foreignKey: 'todoListId'
+        });
+        TodoItem.hasMany(ItemImage, {
+            as: 'images',
+            foreignKey: 'todoItemId'
         });
     }
 

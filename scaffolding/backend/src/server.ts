@@ -9,8 +9,11 @@ import { TodoList } from './models/todolist.model';
 import { TodoItem } from './models/todoitem.model';
 import { User } from './models/user.model';
 
+
 import cors from 'cors';
 import {AdminController} from './controllers/admin.controller';
+import {ItemImage} from './models/itemImage.model';
+
 
 export class Server {
     private server: Application;
@@ -23,9 +26,14 @@ export class Server {
 
         TodoItem.initialize(this.sequelize); // creates the tables if they dont exist
         TodoList.initialize(this.sequelize);
+        User.initialize(this.sequelize);
+        ItemImage.initialize(this.sequelize);
         TodoItem.createAssociations();
         TodoList.createAssociations();
-        User.initialize(this.sequelize);
+        ItemImage.createAssociations();
+
+
+
 
         this.sequelize.sync().then(() => {                           // create connection to the database
             this.server.listen(this.port, () => {                                   // start server on specified port

@@ -1,16 +1,31 @@
 import express from 'express';
-import { Router, Request, Response } from 'express';
-import { TodoItem } from '../models/todoitem.model';
+import {Router, Request, Response} from 'express';
+import {TodoItem} from '../models/todoitem.model';
+import {ItemService} from '../services/item.service';
+import {MulterRequest} from '../middlewares/fileFilter';
+import {TodoList} from '../models/todolist.model';
+import {ItemImage} from '../models/itemImage.model';
 
-const todoitemController: Router = express.Router();
 
-todoitemController.post('/', (req: Request, res: Response) => {
+const todoItemController: Router = express.Router();
+const itemService = new ItemService();
+
+todoItemController.post('/', (req: Request, res: Response) => {
     TodoItem.create(req.body)
         .then(inserted => res.send(inserted))
         .catch(err => res.status(500).send(err));
 });
 
-todoitemController.put('/:id', (req: Request, res: Response) => {
+todoItemController.post('/:id/image', (req: MulterRequest, res: Response) => {
+    itemService.addImage(req).then(created => res.send(created)).catch(err => res.status(500).send(err));
+});
+
+todoItemController.get('/:id/image', (req: Request, res: Response) => {
+    itemService.getImageItem(Number(req.params.id)).then(products => res.send(products))
+        .catch(err => res.status(500).send(err));
+});
+
+todoItemController.put('/:id', (req: Request, res: Response) => {
     TodoItem.findByPk(req.params.id)
         .then(found => {
             if (found != null) {
@@ -25,7 +40,7 @@ todoitemController.put('/:id', (req: Request, res: Response) => {
 
 });
 
-todoitemController.delete('/:id', (req: Request, res: Response) => {
+todoItemController.delete('/:id', (req: Request, res: Response) => {
     TodoItem.findByPk(req.params.id)
         .then(found => {
             if (found != null) {
@@ -37,4 +52,4 @@ todoitemController.delete('/:id', (req: Request, res: Response) => {
         .catch(err => res.status(500).send(err));
 });
 
-export const TodoItemController: Router = todoitemController;
+export const TodoItemController: Router = todoItemController;
