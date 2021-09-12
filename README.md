@@ -28,16 +28,17 @@ The final grade will be composed from 60% exam + 40% project.
 
 This year, students in small teams will build a small web application using Angular and Express. 
 In this application, users (fans of a specific topic, e.g., Harry Potter fans, Manchester United fans) can create posts. 
-Basically, you will build a fan community platform to post related content, such as memes, photos, and buy fan merchandise in an online store.
+In short, you will build a fan community platform to post related content, such as memes, photos, and buy fan merchandise in an online store.
 We will divide students into teams of 5-6, and each team can pick up a common interest for which they want to build such a platform. 
 We will provide the necessary requirements and guide students through the entire process of development and project management.   
 
 # Project organization
 
-Students/participants will be divided into small teams (each team will have roughly 4-5 students). Each team will build the application independently. One student from each team will act as a Product Owner (PO), who will mainly co-ordinate the communication with assitant. Nevertheless, all team members are encouraged to participate in discussions or to clarify requirements or ask doubts.
+Students/participants will be divided into small teams. Each team will build the application independently. One student from each team will act as a Product Owner (PO), who will mainly co-ordinate the communication with assitant. Nevertheless, all team members are encouraged to participate in discussions or to clarify requirements or ask doubts.
 
-The total duration for the project is 12 weeks. First 4 weeks will be given to learn technologies and clear the underlying concepts, **also to start developing**. The project will be developed as a series of *features*.
-Exercise hours mostly consist of meetings of assistants with their corresponding teams. However, there will be few weeks, where we will present few important topics.
+The total duration for the project is 12 weeks. First 4 weeks will be given to learn technologies and clear the underlying concepts, ***also to start developing***. The project will be developed as a series of *features* as we will discuss during the exercise hours.
+Exercise hours mostly consist of meetings of assistants with their corresponding teams. However, there will be a few weeks, where assistants will present a few important topics.
+There will also be pre-recorded podcasts on various topics provided on [SwichTube channel](https://tube.switch.ch/channels/FwaCAPHvhD) in advance.
 At the end, the best project will receive a surprise prize! 
 
 # Further information
