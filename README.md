@@ -21,7 +21,7 @@ The final grade will be composed from 60% exam + 40% project.
 
 [Register for the course through the form](https://forms.gle/WAt5aeeELszQ4hbq6) and register on [Ilias](https://ilias.unibe.ch/goto_ilias3_unibe_frm_2183220.html) **until Sunday night, 26.09.2021**.
 
-***Please note that as per the latest guidelines from the university, exercise hours can be held in person. However, considering the fact that every student might have different preference for their presence in ESe, we have decided to do it online. We will discuss the details in the first exercise hour.***
+***Please note that as per the latest guidelines from the university, lectures and exercises can be held in person. However, considering the fact that every student might have different situation and preference for their physical presence, we have decided to do ESE exercises online. We will discuss the details in the first exercise hour.***
 
 
 # Project 
